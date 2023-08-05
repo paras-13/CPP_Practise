@@ -2,4 +2,13 @@ pwd --> Display the location of the current working directory.     $ pwd
 mkdir --> To create a new directory                                $ mkdir <dir name>
 rmdir --> To delete existing directory                             $ rmdir <dir name>
 ls  -->  To display a list of content of directory                 $ ls
+cd  -->  Used to change the current directory                      $ cd <dir name>
+touch  -->  Used to create empty file                              $ touch file/dir name
+cat  ->  It is a multi - purpose utility in Linux System. 
+          It is used to create a file, display content of a file, copy the content of the file to another file and more
+
+    For new file  -->   $ cat> dile/dir name
+
+rm   ->  Command is to remove a file                             $ rm <file name>
+cp   -->  To copy a file or directory                             
 
