@@ -1,1 +1,5 @@
-pwd --> Display the location of the current working directory.
+pwd --> Display the location of the current working directory.     $ pwd
+mkdir --> To create a new directory                                $ mkdir <dir name>
+rmdir --> To delete existing directory                             $ rmdir <dir name>
+ls  -->  To display a list of content of directory                 $ ls
+
