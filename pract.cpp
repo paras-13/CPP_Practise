@@ -1,28 +1,38 @@
-#include <bits/stdc++.h>
+#include <iostream>
 using namespace std;
 
+int Small(int* arr, int n)
+{
+    int min=arr[0];
+    for(int j=0; j<n; j++)
+    {
+        if (arr[j] < min)
+        min = arr[j];
+    }
+    return min;
+}
+void print(int* arr, int n, )
 int main()
 {
-    int t;
+    int t, n, flag = 1;
     cin >> t;
     while(t--)
     {
-        int n;
-        cin >> n;
+        cin>> n;
         int arr[n];
-        for(int i=0; i<n; i++)
+        for(int i=0; i<n;i++)
         cin >> arr[i];
-        int count = 0;
-        if(arr[0] == n && arr[n-1] == 1)
+        int small = Small(arr, n);
+        for(int j=0; j<n; j++)
         {
-            int var = n-3;
-            count = n+var;
+            if (arr[j] %small != 0)
+            {
+                flag = 0;
+                break;
+            }
         }
-        else if(arr[0] == 1 && arr[n-1] == n)
-        count = 0;
         
-        
-        cout << count << endl;
+        print(arr, n, flag);
     }
 	return 0;
 }
