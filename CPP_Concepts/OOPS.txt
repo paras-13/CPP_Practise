@@ -1,0 +1,52 @@
+
+                            --------------------- OOP [Object Oriented Programming] -----------------------
+
+-> Object-oriented programming (OOP) is a computer programming model that organizes software design around 
+   data, or objects, rather than functions and logic. An object can be defined as a data field that has unique 
+   attributes and behavior.
+
+    --> OOP plays more importace to data rather than functions. 
+    --> Prograns are divided into classes and their member functions. 
+    --> OOP follows a Bottom-Up approach.
+    --> New data and functions can be comfortably added whenever essential.
+    --> Data is private and prevented from accessing external functions.
+    --> Objects communicate with each other using functions.
+
+-> KEY concepts of OOP model: 
+
+1) CLASSES: -> A class is a user-defined data type. 
+            -> It consists of data members and member functions, which can be accessed and used by creating an instance(objects) of that class.
+            -> It represents the set of properties or methods that are common to all objects of one type.
+            -> A class is like a blueprint for an object.
+
+2) OBJECTS: -> Basic unit of Object-Oriented Programming and represents the real-life entities.
+            -> An Object is an instance of a Class. 
+            -> When a class is defined, no memory is allocated but when it is initialized (i.e. an object is created) memory is allocated. 
+            -> An object has an identity, state, and behavior. Each object contains data and code to manipulate the data.
+
+3) METHOD:  -> An operation required for an object or entity when coded in a class is called a method.
+            -> Methods or member functions are declared as public inside a class as they are available outside the class.
+
+4) DATA ABSTRACTION: Data abstraction refers to providing only essential information about the data to the outside world, 
+                     hiding the background details or implementation.
+
+5) ENCAPSULATION:   -> The packing of data and functions into a single component is known as encapsulation.
+                    -> The data is not reachable by the outside functions.
+                    -> Only those functions which are defined within the class are able to access the data.
+                    -> Encapsulation leads to Data Hiding.
+
+6) INHERITANCE:     -> Inheritance is a method by which objects of one class get the properties of objects of another class.
+                    -> The class that inherits properties from another class is called Subclass or Derived Class. 
+                    -> The class whose properties are inherited by a subclass is called Base Class or Superclass.
+
+7) POLYMORPHISM:    -> Polymorphism allows the same function to act in a different way in different classes.
+                    -> Ability to take more than one form. An operation may exhibit different behaviors in different instances.
+                    -> C++ supports operator overloading and function overloading.
+
+8) DYNAMIC BINDING: ->Dynamic binding, also known as late binding or runtime binding, is a concept in computer programming and object-oriented programming (OOP) languages.
+                    ->It refers to the process of determining which method or function to call at runtime, rather than at compile time.
+
+9) MESSAGE PASSING: -> Message passing refers to objects communicating with each other by invoking methods or sending messages.
+                    -> When an object receives a message, it processes it by invoking the appropriate method associated with that message.
+                    -> This is a fundamental concept in OOP, and it allows for encapsulation and abstraction.
+
